@@ -1,0 +1,73 @@
+/* Element Selector */
+
+body {
+    background-color: pink;
+    color: brown;
+    margin: 0;
+    padding: 0;
+}
+
+/* ID Selector */
+
+#container {
+}
+
+/* Class Selector */
+
+.container {
+    width: 80%; 
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.container-fluid {
+    width: 100%;
+}
+
+header {
+    background-color:crimson
+    padding: 20px;
+}
+.nav {
+    background-color: #e74c3c;
+    padding: 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 20px;
+    transition: 0.5s;
+}
+
+.nav a:hover {
+    background-color: #a70c00;
+    padding-left: 40px;
+    transition: 0.5s;
+}
+
+.nav a.active {
+    background-color:#a70c00; ;
+}
+
+.content {
+    background-color:#ffac9c  ;
+    color: firebrick;
+    padding: 20px;
+    float: left;
+    width: 100%;
+    margin-right: 20px;
+}
+
+.sidebar {
+    background-color: #d73c2c;
+    padding: 20px;
+    width: 100%;
+}
+
+.footer {
+    background-color: hsla(7, 100%, 74%, 0.733) 
+    padding: 20px;
+
+}
